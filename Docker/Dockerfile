@@ -1,4 +1,4 @@
-FROM bioconductor/devel_core2:latest
+FROM bioconductor/bioconductor_docker:devel
 
 
 RUN apt-get update && \
